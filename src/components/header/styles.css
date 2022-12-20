@@ -14,7 +14,7 @@
 .lineBottom {
   width: 100vw;
   height: 1px;
-  background-color: #DBDBDB;
+  background-color: var(--white-tertiary);
 }
 .containerLogo {
   display: flex;
@@ -40,14 +40,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-color: #DBDBDB;
+  border-color: var(--white-tertiary);
   border-width: 1px;
   border-style: solid;
   border-radius: 3px;
   padding: 0.3rem 0.5rem;
 }
 .iconSearch {
-  stroke: #7c7c7c;
+  stroke: var(--black-secondary);
   fill: transparent;
   width: 10px;
   height: 10px;
@@ -55,12 +55,12 @@
 .inputSearch {
   display: flex;
   margin-left: 5px;
-  color: #262626;
+  color: var(--black-primary);
   background-color: transparent;
   outline: none;
 }
 .inputSearch::placeholder {
-  color: #b5b4b4;
+  color: var(--white-quaternary);
 }
 .containerActions {
   display: flex;
@@ -78,11 +78,11 @@
   height: 22px;
 }
 .icon {
-  stroke: #262626;
+  stroke: var(--black-primary);
   fill: transparent;
 }
 .icon:hover {
-  stroke: #000000;
+  stroke: var(--black-tertiary);
   fill: transparent;
   width: 25px;
   height: 25px;

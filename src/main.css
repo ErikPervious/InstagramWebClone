@@ -7,3 +7,13 @@ h1, h2, h3, p, input {
   font-family: Arial, Helvetica, sans-serif;
   color: #262626;
 }
+:root {
+  --black-primary: #262626;
+  --black-secondary: #7C7C7C;
+  --black-tertiary: #000000;
+  --blue-primary: #0095F6;
+  --white-primary: #FFFFFF;
+  --white-secondary: #FAFAFA;
+  --white-tertiary: #DBDBDB;
+  --white-quaternary: #A8A8A8;
+}
