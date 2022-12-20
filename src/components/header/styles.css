@@ -1,0 +1,44 @@
+#mainHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.6rem 0 0.4rem 0;
+  width: 70%;
+}
+.logoInstagram {
+  width: 7rem;
+  object-fit: contain;
+}
+.containerInput {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  right: -4.7rem;
+  padding: 0.3rem 4.5rem;
+  border-color: #DBDBDB;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+}
+.inputSearch {
+  display: flex;
+  width: 50px;
+  margin-left: 5px;
+  color: #DBDBDB;
+  text-align: center;
+}
+.containerActions {
+  display: flex;
+}
+.action {
+  margin-left: 15px;
+  background-color: transparent;
+}
+.profileAvatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  margin: 0;
+}
