@@ -4,7 +4,7 @@ import './styles.css';
 
 export function Routes() {
   return (
-    <div id="routesMain">
+    <div className="containerRoutes">
       <Feed />
     </div>
   )

@@ -1,5 +1,62 @@
-#mainFeed {
+.containerFeed {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+  width: 65%;
+  height: 100vh;
+}
+.containerMain {
+  display: flex;
+  width: 63%;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+  border-color: #DBDBDB;
+  border-width: 1px;
+  border-style: solid;
+}
+.containerAside {
+  display: flex;
+  width: 35%;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+}
+.containerAccountCard {
   display: flex;
   width: 100%;
+  margin-top: 1rem;
+  justify-content: start;
+  align-items: center;
+}
+.accountCardAvatar {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50px;
+}
+.accountCardText {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
+  margin-left: 1.3rem;
+}
+.accountCardTag {
+  font-size: 15px;
+  font-weight: bold;
+}
+.accountCardName {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #a8a8a8;
 }

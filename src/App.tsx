@@ -1,7 +1,11 @@
 import { Routes } from "./routes"
 
+import './App.css';
+
 export default function App() {
   return (
-    <Routes />
+    <div className="containerApp">
+      <Routes />
+    </div>
   );
 }

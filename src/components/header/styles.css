@@ -1,44 +1,92 @@
-#mainHeader {
+.rootHeader {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.containerHeader {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
+  padding: 0.5rem 0 0.3rem 0;
+  width: 65%;
+}
+.lineBottom {
+  width: 100vw;
+  height: 1px;
+  background-color: #DBDBDB;
+}
+.containerLogo {
+  display: flex;
+  width: 30%;
+  height: auto;
   align-items: center;
-  padding: 0.6rem 0 0.4rem 0;
-  width: 70%;
+  justify-content: flex-start;
 }
 .logoInstagram {
-  width: 7rem;
-  object-fit: contain;
+  width: 6.5rem;
+  object-fit: cover;
 }
 .containerInput {
+  width: 40%;
+  height: auto;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  right: -4.7rem;
-  padding: 0.3rem 4.5rem;
+}
+.containerInputSearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-color: #DBDBDB;
   border-width: 1px;
   border-style: solid;
-  border-radius: 6px;
+  border-radius: 3px;
+  padding: 0.3rem 0.5rem;
+}
+.iconSearch {
+  stroke: #7c7c7c;
+  fill: transparent;
+  width: 10px;
+  height: 10px;
 }
 .inputSearch {
   display: flex;
-  width: 50px;
   margin-left: 5px;
-  color: #DBDBDB;
-  text-align: center;
+  color: #262626;
+  background-color: transparent;
+  outline: none;
+}
+.inputSearch::placeholder {
+  color: #b5b4b4;
 }
 .containerActions {
   display: flex;
+  width: 30%;
+  height: auto;
+  align-items: center;
+  justify-content: flex-end;
 }
-.action {
-  margin-left: 15px;
+.buttonAction {
+  margin-left: 16px;
   background-color: transparent;
 }
+.action {
+  width: 22px;
+  height: 22px;
+}
+.icon {
+  stroke: #262626;
+  fill: transparent;
+}
+.icon:hover {
+  stroke: #000000;
+  fill: transparent;
+  width: 25px;
+  height: 25px;
+}
 .profileAvatar {
-  width: 20px;
-  height: 20px;
   border-radius: 25px;
-  margin: 0;
 }
