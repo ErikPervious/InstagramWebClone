@@ -10,3 +10,13 @@
   text-transform: uppercase;
   color: #121331;
 }
+.buttonErrorPage {
+  background-color: rgb(9, 164, 112);
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 50px;
+}
+.buttonErrorPageText{
+  text-decoration: none;
+  color: white;
+}

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './styles.css';
 
 import Lottie from 'react-lottie';
@@ -21,8 +23,8 @@ export function ErrorPage() {
         width={200}
       />
       <h1 className='text'>página não encontrada</h1>
-      <button className="buttonAction">
-        VOLTAR PARA O FEED
+      <button className="buttonErrorPage">
+        <Link to="/" className='buttonErrorPageText'>Voltar para home</Link>
       </button>
     </div>
   )

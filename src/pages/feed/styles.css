@@ -61,3 +61,24 @@
   margin-top: 8px;
   color: var(--white-quaternary);
 }
+.containerSuggestions {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.containerSuggestionsHeader {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.headerTitle {
+  font-weight: 500;
+  color: var(--white-quaternary);
+}
+.headerText {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--black-primary);
+  cursor: pointer;
+}
