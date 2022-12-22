@@ -8,7 +8,7 @@
 }
 .container {
   display: flex;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   justify-content: space-between;
   width: 65%;
   height: 100vh;
@@ -54,9 +54,10 @@
 .accountCardTag {
   font-size: 15px;
   font-weight: bold;
+  text-decoration: none;
 }
 .accountCardName {
   font-size: 16px;
-  margin-top: 10px;
+  margin-top: 8px;
   color: var(--white-quaternary);
 }
